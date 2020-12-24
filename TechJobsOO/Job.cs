@@ -7,7 +7,7 @@ namespace TechJobsOO
         private static int nextId = 1;
 
         public string Name { get; set; }
-        public Employer EmployerName { get; set; }
+        public Employer  EmployerName { get; set; }
         public Location EmployerLocation { get; set; }
         public PositionType JobType { get; set; }
         public CoreCompetency JobCoreCompetency { get; set; }
